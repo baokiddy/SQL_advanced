@@ -108,5 +108,6 @@ def start_end(start, end):
     
     return jsonify({f"Tmin: {results[0]}, Tavg: {results[1]}, Tmax: {results[2]}"})
 
+
 if __name__ == '__main__':
     app.run(debug=True)
